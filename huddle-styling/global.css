@@ -1,0 +1,26 @@
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Open sans;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../image-container/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  height: 100vh;
+}

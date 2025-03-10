@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+  .body-section {
+    grid-template-columns: none;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .body-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    text-align: center;
+    margin-block-start: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .body {
+    background-image: url(../image-container/bg-mobile.svg);
+  }
+}
