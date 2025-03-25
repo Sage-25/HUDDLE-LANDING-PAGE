@@ -26,17 +26,31 @@
   margin-block-end: 2rem;
 }
 
+.illustration-container {
+  max-width: 50rem;
+}
+
+.illustration {
+  width: 100%;
+}
+
 .body-header {
   font-size: 3rem;
   margin-block-end: 1.5rem;
   line-height: 4.5rem;
   font-family: Poppins;
   font-weight: 600;
+  width: 100%;
 }
 
 .body-text {
   line-height: 1.8rem;
   margin-block-end: 1.5rem;
+  width: 100%;
+}
+
+.text-container {
+  max-width: 35rem;
 }
 
 .body-button {

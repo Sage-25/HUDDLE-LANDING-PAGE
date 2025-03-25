@@ -9,6 +9,11 @@
   .text-container {
     text-align: center;
   }
+
+  .main-container{
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+  }
 }
 
 @media (max-width: 700px) {
